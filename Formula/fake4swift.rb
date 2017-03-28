@@ -9,7 +9,7 @@ class Fake4swift < Formula
   depends_on :xcode => ["8.1", :build]
 
   def install
-    system "make", "prefix_install", "PREFIX=#{prefix}"
+    system "make", "prefix_install", "PREFIX=#{prefix}", "-j", "1"
   end
 
   test do
