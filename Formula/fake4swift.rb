@@ -2,8 +2,8 @@ class Fake4swift < Formula
   desc "Mock generator for swift"
   homepage "https://github.com/tjarratt/fake4swift"
   url "https://github.com/tjarratt/fake4swift.git",
-    :tag => "v3.1.1",
-    :revision => "7afacdf7a68d4c62573d57d655a124ab8bfbdd5f"
+    :tag => "v3.1.2",
+    :revision => "27710500c367fc25f8f104f14c5c1db2d8b4c2e3"
   head "https://github.com/tjarratt/fake4swift.git"
 
   depends_on :xcode => ["8.1", :build]
